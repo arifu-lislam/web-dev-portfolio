@@ -84,3 +84,36 @@ nav li a{
     width: 584px;
     height: 676px;
 }
+/* About */
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.description{
+    font-size: 18px;
+    color: #757575;
+}
+.bg-color{
+    background-color: #FFF8F3; 
+   
+}
+.about{
+     border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+
+}
+main{
+     max-width: 1140px;
+     margin: 0 auto; 
+}
+.about-items{
+   display: flex; 
+    justify-content: space-around; 
+
+}
+.item-description{
+    font-weight: 600; 
+}
