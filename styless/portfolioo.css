@@ -1,0 +1,239 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Nav style */
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+.orange-color{
+    color: #FD6E0A;
+}
+
+ nav ul li{
+    list-style: none;
+    
+    margin-right: 50px;
+    
+    
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+   
+}
+.change1{
+    display: flex;
+    justify-content: space-between;
+     margin: 51px 226px;
+    align-items: center;
+
+}
+.change2{
+background-image: url('/images/developer.png');
+background-repeat: no-repeat;
+background-image: url('/images/header_bg.png');
+background-position: bottom right;
+background-color: #FFF8F3;
+    
+}
+.change3{
+    font-size: 20px;
+    color: #474747;
+}
+.change4{
+    font-size: 20px;
+    color: #474747;
+}
+.bttn{
+    background-color: #FD6E0A;
+   color: white;
+   padding: 19px 36px;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 5px;
+   border: none;
+
+}
+
+nav ul{
+     display: flex;
+     align-items: center;
+    
+}
+/* Banner style */
+.banner-subtitle{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+}
+.banner-section{
+max-width: 585px;   
+}
+.section-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 38px 0px 230px;
+}
+/* about */
+.about{
+    background-color: #FFF8F3;
+    padding: 130px 153px 130px 121px;
+    border-radius: 10px;
+    margin-top: 130px;
+    
+}
+main{
+     max-width: 1140px;
+     margin: 0 auto;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.about-description{
+    font-size: 18px;
+    color: #757575;
+}
+div h5{
+    color: #757575;
+    font-size: 20px;
+}
+div h4{
+    color: #474747;
+    font-size: 20px;
+}
+.about-item{
+    background-color: #FFFFFF;
+    
+}
+.temp{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.temporary{
+    font-size: 18px;
+    color: #757575;
+    /* width: 900px; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+     max-width: 909px;
+     border: 1px solid white;
+   
+} 
+.temporary2{
+     margin-top: 120px;
+}
+/* title-card */
+.card-item{
+    display: flex;
+    gap: 25px;
+}
+.discription-card{
+    padding: 100px;
+    color: #757575;
+    margin-top: 151px;
+}
+.card-section{
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+background-color: #FFFFFF;
+box-shadow: 0px 6px 50px 0px;
+color: black;
+margin-top: 50px;
+}
+.photo-card{
+    padding: 20px;
+}
+/* resume section */
+.resume-container{
+  display:flex; 
+  gap: 70px; 
+}
+.title{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.column-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.column-subtitle{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575 ;
+}
+.column-description{
+    font-size: 16px;
+    color: #757575;
+}
+.button-center{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer parts */
+.foot-item{
+    display: flex;
+    margin-top: 250px;
+   gap: 120px;
+   padding: 130px 230px;
+   background-color: #FFF8F3;
+}
+.foot-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.foot-description{
+    font-size: 16px;
+    color: #474747;
+}
+.foot-column{
+    width: 50%;
+}
+.foot-title2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+footer input[type="text"], input[type="email"], textarea{
+    padding: 30px;
+    width: 100%;
+    font-size: 20px;
+    background-color:white;
+    border-radius: 5px;
+}
